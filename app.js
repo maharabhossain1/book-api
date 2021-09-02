@@ -37,7 +37,7 @@ const bookApi =(bookName) =>{
             docs.forEach( element => {
                 const {cover_i,title,author_name,first_publish_year,publisher} = element; // Destructuring element object 
                 if ((author_name && cover_i && publisher) !== undefined){
-                    bookCards(cover_i,title,author_name,first_publish_year,publisher, docs.length); //calling bookCards function and putting destructured variables into parameter 
+                    bookCards(cover_i,title,author_name,first_publish_year,publisher, docs.length); //calling bookCards function and putting destructured variables into parameters 
                 };
             });   
         }else{
