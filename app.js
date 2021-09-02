@@ -48,7 +48,6 @@ const bookApi =(bookName) =>{
 
 // Search  butter Click Event 
 searchBtn.addEventListener('click',function(){
-    inputField.innerText = '';
     const inputValue = inputField.value;
     bookApi(inputValue);
 });
